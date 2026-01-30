@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pradeep Kumar | Web Developer/Designer</title>
+  <meta name="description" content="Interactive Resume of Pradeep Kumar - Web Developer/Designer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top progress bar -->
+  <div id="progress"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">PK</div>
+        <div>
+          <h1>Pradeep Kumar</h1>
+          <p class="subtitle">Web Developer / Designer • 8+ Years</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">
+          🌙
+        </button>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn outline" href="assets/Pradeep-Kumar-CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certs" class="nav-link">Certificates</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="about" class="section container">
+      <div class="grid-2">
+        <div class="card">
+          <h2>Professional Summary</h2>
+          <p>
+            Passionate and detail-oriented <b>Web Developer</b> with <b>8+ years</b> of experience
+            in web design and development. Skilled in building responsive, SEO-friendly, and
+            user-focused websites. Strong in WordPress custom development, performance
+            optimization, and building scalable production websites.
+          </p>
+
+          <div class="pill-row">
+            <span class="pill">WordPress</span>
+            <span class="pill">PHP</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">React</span>
+            <span class="pill">Tailwind</span>
+            <span class="pill">SEO</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Quick Info</h2>
+          <ul class="info">
+            <li><span>Location</span><b>Sangam Vihar, New Delhi - 110080</b></li>
+            <li><span>Phone</span><b><a href="tel:+917503274534">7503274534</a>, <a href="tel:+919910111646">9910111646</a></b></li>
+            <li><span>Email</span><b><a href="mailto:pradeepkkuldeep@gmail.com">pradeepkkuldeep@gmail.com</a></b></li>
+            <li><span>LinkedIn</span><b><a target="_blank" href="https://www.linkedin.com/in/pradeepkkuldeep/">linkedin.com/in/pradeepkkuldeep</a></b></li>
+            <li><span>Behance</span><b><a target="_blank" href="https://www.behance.net/pradeepkkuldeep">behance.net/pradeepkkuldeep</a></b></li>
+          </ul>
+
+          <div class="cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn outline" href="#experience">Work History</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="muted">Search or filter skills — interactive sorting & tags.</p>
+      </div>
+
+      <div class="skills-controls card">
+        <input id="skillSearch" class="input" placeholder="Search skills (e.g. WordPress, React, PHP)" />
+        <div class="tags">
+          <button class="tag active" data-filter="all">All</button>
+          <button class="tag" data-filter="frontend">Frontend</button>
+          <button class="tag" data-filter="backend">Backend</button>
+          <button class="tag" data-filter="tools">Tools</button>
+          <button class="tag" data-filter="design">Design</button>
+        </div>
+      </div>
+
+      <div id="skillsGrid" class="skills-grid"></div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-head">
+        <h2>Work Experience</h2>
+        <p class="muted">Timeline view with highlights.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item card">
+          <div class="timeline-top">
+            <h3>Web Developer/Designer — Ravit Heli Services</h3>
+            <span class="badge">Aug 2025 – Present</span>
+          </div>
+          <ul>
+            <li>Creating & maintaining partner custom WordPress websites (Syandan Aviation and more).</li>
+            <li>Front-end performance optimization & cross-browser compatibility.</li>
+            <li>Implemented features + SEO improvements.</li>
+            <li>Plugin customization & enhancements.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card">
+          <div class="timeline-top">
+            <h3>Junior Web Developer — Better Collective (Copenhagen, Denmark)</h3>
+            <span class="badge">Mar 2023 – Jun 2025</span>
+          </div>
+          <ul>
+            <li>Migrated / developed / maintained scalable WordPress and VIP websites.</li>
+            <li>Worked with international teams on features + SEO improvements.</li>
+            <li>Implemented Scorecard & Players data using API.</li>
+            <li>Plugin customization.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card">
+          <div class="timeline-top">
+            <h3>Web Designer — InsideSport (Delhi)</h3>
+            <span class="badge">Apr 2022 – Mar 2023</span>
+          </div>
+          <ul>
+            <li>Designed web pages using patterns.</li>
+            <li>Custom layouts and landing pages in WordPress.</li>
+            <li>Integrated custom third-party solutions.</li>
+            <li>Maintained security + performance (best practices for SEO).</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card">
+          <div class="timeline-top">
+            <h3>Web Master — Pinnacle Connect LLP (Gurugram)</h3>
+            <span class="badge">Oct 2019 – Mar 2020</span>
+          </div>
+          <ul>
+            <li>Oversaw web design and maintenance for multiple sites.</li>
+            <li>Handled development tasks and improved UI/UX.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card">
+          <div class="timeline-top">
+            <h3>Web Designer / Digital Marketer — Impetus Media LLP (Delhi)</h3>
+            <span class="badge">Dec 2015 – Oct 2019</span>
+          </div>
+          <ul>
+            <li>Designed website layouts, graphics, and digital creatives.</li>
+            <li>Managed Google Ads and social media campaigns.</li>
+            <li>Aligned brand design with content/development teams.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <h2>Top Projects</h2>
+        <p class="muted">Click a project to open it.</p>
+      </div>
+
+      <div class="projects-grid">
+        <a class="project card" href="https://www.insidesport.in/" target="_blank">
+          <h3>InsideSport (News)</h3>
+          <p>PHP, JS, Tailwind CSS, WordPress, Yoast, CDN, Git, Figma</p>
+          <span class="mini">Open ↗</span>
+        </a>
+
+        <a class="project card" href="https://www.sunflame.com/" target="_blank">
+          <h3>Sunflame (Product)</h3>
+          <p>Magento, PHP, JS, CSS</p>
+          <span class="mini">Open ↗</span>
+        </a>
+
+        <a class="project card" href="https://vcraftavia.com/" target="_blank">
+          <h3>Vcraftavia (Pilot Training)</h3>
+          <p>PHP, JS, CSS, WordPress</p>
+          <span class="mini">Open ↗</span>
+        </a>
+
+        <a class="project card" href="https://syandanaviation.com/" target="_blank">
+          <h3>Syandan Aviation</h3>
+          <p>PHP, JS, CSS, WordPress</p>
+          <span class="mini">Open ↗</span>
+        </a>
+
+        <a class="project card" href="https://pinnacleconnect.in/" target="_blank">
+          <h3>Pinnacle Connect</h3>
+          <p>PHP, JS, CSS, WordPress</p>
+          <span class="mini">Open ↗</span>
+        </a>
+
+        <a class="project card" href="https://www.magnicrete.com/" target="_blank">
+          <h3>Magnicrete</h3>
+          <p>HTML, CSS, JS</p>
+          <span class="mini">Open ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+
+      <div class="card">
+        <h3>3-Year Diploma in ITES&M</h3>
+        <p class="muted">Board of Technical University — Jun 2012 to Jul 2015</p>
+      </div>
+    </section>
+
+    <section id="certs" class="section container">
+      <div class="section-head">
+        <h2>Achievements & Certificates</h2>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>C++ Certificate</h3>
+          <p class="muted">Ambedkar Polytechnic, Delhi</p>
+          <p><b>ID:</b> 194241G51C (Jun 2014)</p>
+        </div>
+        <div class="card">
+          <h3>CS50 Certificate</h3>
+          <p class="muted">Harvard (Jan 2025)</p>
+          <a target="_blank" class="btn outline"
+             href="https://cs50.harvard.edu/certificates/5b8e6567-8814-4319-a828-f202201e2812">
+            View Certificate
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Quick actions for recruiters.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Send Email</h3>
+          <p>Let’s connect for WordPress / Web Development roles.</p>
+          <a class="btn" href="mailto:pradeepkkuldeep@gmail.com?subject=Interview%20Opportunity%20-%20Resume">
+            Email Pradeep
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Call</h3>
+          <p>Available for discussion and interview scheduling.</p>
+          <div class="cta">
+            <a class="btn outline" href="tel:+917503274534">Call 7503274534</a>
+            <a class="btn outline" href="tel:+919910111646">Call 9910111646</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p class="muted">© <span id="year"></span> Pradeep Kumar • Interactive Resume</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
